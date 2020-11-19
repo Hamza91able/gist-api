@@ -1,4 +1,6 @@
-We are on a mission to make the process of buying and selling easier and more convenient - and with your help, it will be possible. But before we work together, we would like to see your programming skills. Please find a small assignment below, that we would love for you to complete.
+We are on a mission to make the process of buying and selling easier and more convenient - and with your help, it will be possible.
+But before we work together, we would like to see your programming skills. 
+Please find a small assignment below, that we would love for you to complete.
 
 # YOUR TASK
 
@@ -9,7 +11,7 @@ This project is almost ready to work, All the setup is baked in already.
 
 Add dependencies for `[@octokit/rest](https://octokit.github.io/rest.js/v18/)` for getting the data from github.
 
-This should not take more than 45 mins to 1 hour. (We believe so.)
+We believe, for an ideal candidate, this should not take more than an hour or two.
 
 ## Whats Expected
 
