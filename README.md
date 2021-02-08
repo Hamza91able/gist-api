@@ -1,40 +1,30 @@
-We are on a mission to make the process of buying and selling easier and more convenient - and with your help, it will be possible.
-But before we work together, we would like to see your programming skills. 
-Please find a small assignment below, that we would love for you to complete.
+We are on a mission to make the process of buying and selling easier and more convenient - and with your help, it will be possible. But before we work together, we would like to assess your programming abilities.
 
-# YOUR TASK
+Please find the small assignment below, that we would like for you to complete in the allotted time. (If you are reading this, the clock is already ticking).
 
-## Finish the project for fetching the public gists from github
-This project is designed to gather information about your frontend skills by completing this project.
+## YOUR TASK: Create an app that fetches (public) user gists from Github
 
-This project is almost ready to work, All the setup is baked in already.
+This project should be built using the base project you should clone from [here](https://github.com/dubizzle-onboarding/gistapi).
 
-Add dependencies for `[@octokit/rest](https://octokit.github.io/rest.js/v18/)` for getting the data from github.
+It uses Github's [Octokit REST API](https://octokit.github.io/rest.js/v18/)
 
-We believe, for an ideal candidate, this should not take more than an hour or two.
+We believe, for an ideal candidate, this should not take more than a couple of hours.
 
-## Whats Expected
-
-There are number of things we are looking in the project.
-
-- Create a list of public gist available
-- Search Gists for the username
+### Whats Expected
+Create a list of public gist available.
+- Search Gists for the username.
 - Use state management to save data and not make duplicate calls.
-- Show all the relevant meta data available in the response
-- We do expect you to use create proper component hierarchy and keep the service and components exclusive.
+- Show all the relevant meta data available in the response.
+- We do expect you to create and use proper component hierarchy keeping service and components exclusive.
 - Please use git version control.
 
-
-
-## Good to have
-
+### Good to have
 - Proper handling of error message and no results screens.
-- Clean UI (desing your own ui or follow design_inspiration.png as provided)
-- Unit Tests
-- Optimized rendering.
-- Code comments for better understand and evaluation. 
+- Clean UI similar to [this](https://raw.githubusercontent.com/dubizzle-onboarding/gistapi/main/design_inspiration.png).
+- Unit Tests.
+- Optimised rendering.
+- Code comments.
 - Type checking of the params.
 
-## Thank you
-
-We thank you for your effort and time.
+### Thank you
+We thank you for your effort and time and good luck.
