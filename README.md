@@ -5,7 +5,9 @@ Please find the small assignment below, that we would like for you to complete i
 ## YOUR TASK: Create an app that fetches (public) user gists from Github
 
 This project should be built using the base project you should clone from [here](https://github.com/dubizzle-onboarding/gistapi).
+
 It uses Github's [Octokit REST API](https://octokit.github.io/rest.js/v18/)
+
 We believe, for an ideal candidate, this should not take more than a couple of hours.
 
 ### Whats Expected
