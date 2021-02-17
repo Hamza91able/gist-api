@@ -6,7 +6,7 @@ import Search from './Search';
 function Header() {
   return (
     <Wrapper>
-      <Octicon name="mark-github" mega/>
+      <Octicon name="mark-github" mega />
       <Search />
     </Wrapper>
   )

@@ -6,8 +6,8 @@ const Search = () => {
   return (
     <Wrapper>
       <InputBox>
-      <Octicon name="search" />
-      <Input placeholder="Search Gists for the username"/>
+        <Octicon name="search" />
+        <Input placeholder="Search Gists for the username" />
       </InputBox>
     </Wrapper>
   )
