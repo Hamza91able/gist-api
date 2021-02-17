@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/gist-api/static/js/main.fb277055.chunk.js",
+    "main.js.map": "/gist-api/static/js/main.fb277055.chunk.js.map",
+    "runtime-main.js": "/gist-api/static/js/runtime-main.957d5649.js",
+    "runtime-main.js.map": "/gist-api/static/js/runtime-main.957d5649.js.map",
+    "static/css/2.9af183a6.chunk.css": "/gist-api/static/css/2.9af183a6.chunk.css",
+    "static/js/2.b9a30d95.chunk.js": "/gist-api/static/js/2.b9a30d95.chunk.js",
+    "static/js/2.b9a30d95.chunk.js.map": "/gist-api/static/js/2.b9a30d95.chunk.js.map",
+    "index.html": "/gist-api/index.html",
+    "static/css/2.9af183a6.chunk.css.map": "/gist-api/static/css/2.9af183a6.chunk.css.map",
+    "static/js/2.b9a30d95.chunk.js.LICENSE.txt": "/gist-api/static/js/2.b9a30d95.chunk.js.LICENSE.txt",
+    "static/media/octicons.css": "/gist-api/static/media/octicons.f9ced0fc.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.957d5649.js",
+    "static/css/2.9af183a6.chunk.css",
+    "static/js/2.b9a30d95.chunk.js",
+    "static/js/main.fb277055.chunk.js"
+  ]
+}
