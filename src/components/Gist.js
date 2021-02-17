@@ -1,3 +1,3 @@
-const Gist = ({ gist }) => <>
+const Gist = ({ gist }) => <></>
 
 export default Gist

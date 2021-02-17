@@ -1,13 +1,49 @@
-import React from 'react'
+import React, { useEffect, useContext } from 'react';
 import styled from 'styled-components'
 import Octicon from 'react-octicon'
+import { Context } from './ContextWrapper'
+import { getGistForUser, getPublicGists } from '../services/gistService';
 
 const Search = () => {
+  const context = useContext(Context);
+  const {
+    handleSetUsername,
+    handleSetGists,
+    handleSetError,
+  } = context;
+
+  useEffect(async () => {
+    const publicGists = await getPublicGists();
+    await handleSetGists(publicGists.data);
+  }, [])
+
+  const handleKeyDown = async event => {
+    if (event.key === 'Enter') {
+      handleSetUsername(event.target.value);
+      if (event.target.value) {
+        try {
+          const userGists = await getGistForUser(event.target.value);
+          await handleSetGists(userGists.data);
+          handleSetError("");
+        } catch (error) {
+          handleSetError("User Not Found");
+        }
+      } else {
+        handleSetError("");
+        const publicGists = await getPublicGists();
+        await handleSetGists(publicGists.data);
+      }
+    }
+  }
+
   return (
     <Wrapper>
       <InputBox>
         <Octicon name="search" />
-        <Input placeholder="Search Gists for the username" />
+        <Input
+          placeholder="Search Gists for the username"
+          onKeyDown={handleKeyDown}
+        />
       </InputBox>
     </Wrapper>
   )
