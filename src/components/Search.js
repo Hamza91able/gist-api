@@ -27,6 +27,7 @@ const Search = () => {
           handleSetError("");
         } catch (error) {
           handleSetError("User Not Found");
+          handleSetGists([]);
         }
       } else {
         handleSetError("");
